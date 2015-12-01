@@ -1,0 +1,22 @@
+{
+  "name": "naperinvic/ncoremvc",
+  "type": "framework",
+  "description": "a tiny MVC app that allows you to build fast web applications",
+  "keywords": ["framework", "mvc"],
+  "homepage": "http://naper.eu",
+  "license": "GPL-3.0+",
+  "authors": [
+      {
+          "name": "Hamza Bourrahim",
+          "email": "contact@naper.eu",
+          "homepage": "http://naper.eu"
+      }
+  ],
+    "require": {
+        "dannyvankooten/php-router": "dev-master",
+        "php": ">=5.4.0",
+        "doctrine/orm": "2.5.2",
+        "altorouter/altorouter": "1.1.0",
+        "slim/slim": "^2.6"
+    }
+}
