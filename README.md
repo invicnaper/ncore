@@ -80,7 +80,7 @@ $footer = new Template(hello::$template);
 $footer->display('footer.ncore.php');
 ```
         
-  we create our template , and render the header , body and footer .  The header.ncore.php contain html and php code . 
+  we create our template , and render the header , body and footer .  The <b>header.ncore.php</b> contains html and php code . 
   
   
 ### Contributors ###
