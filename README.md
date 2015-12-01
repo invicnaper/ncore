@@ -51,11 +51,11 @@ the routes.php file contains :
             
         ErrorHandling::error_404($route);
     ```
-    ```ruby
-        require 'redcarpet'
-        markdown = Redcarpet.new("Hello World!")
-        puts markdown.to_html
-    ```
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
       
   which means that if you request : <b>HOST/public/hello</b> , it will be routed to testController and calling the function index() .
   
