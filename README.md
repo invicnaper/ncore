@@ -3,7 +3,7 @@ a tiny framework for php
 
 # README #
 
-This README would normally document whatever steps are necessary to get facetracker up and running.
+This README would normally document whatever steps are necessary to get nCore up and running.
 
 ![alt text](https://cdn1.iconfinder.com/data/icons/mayssam/512/Coding-128.png "nCore logo")
 
