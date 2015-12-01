@@ -39,18 +39,18 @@ Download source code , then use composer to install required projects
 
 the routes.php file contains : 
       ```php
-$collection = new RouteCollection();
-$collection->attachRoute(new Route('/hello', array(
-    '_controller' => 'testController::index',
-    'methods' => 'GET'
-)));
-    
-$router = new Router($collection);
-$router->setBasePath('/');
-$route = $router->matchCurrentRequest();
-    
-ErrorHandling::error_404($route);
-```
+        $collection = new RouteCollection();
+        $collection->attachRoute(new Route('/hello', array(
+            '_controller' => 'testController::index',
+            'methods' => 'GET'
+        )));
+            
+        $router = new Router($collection);
+        $router->setBasePath('/');
+        $route = $router->matchCurrentRequest();
+            
+        ErrorHandling::error_404($route);
+    ```
       
   which means that if you request : <b>HOST/public/hello</b> , it will be routed to testController and calling the function index() .
   
