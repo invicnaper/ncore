@@ -63,19 +63,20 @@ ErrorHandling::error_404($route);
   The controller is calling the view to render the content . 
   
   our render function contains 
-        ```php
-        /* display header  */
-        $tpl = new Template(hello::$template);
-        $tpl->display('header.ncore.php');
 
-        /* display body */
-        $body = new Template(hello::$template);
-        $body->display('body.ncore.php');
+```php
+/* display header  */
+$tpl = new Template(hello::$template);
+$tpl->display('header.ncore.php');
 
-        /* display footer */
-        $footer = new Template(hello::$template);
-        $footer->display('footer.ncore.php');
-        ```
+/* display body */
+$body = new Template(hello::$template);
+$body->display('body.ncore.php');
+
+/* display footer */
+$footer = new Template(hello::$template);
+$footer->display('footer.ncore.php');
+```
         
   we create our template , and render the header , body and footer .  The header.ncore.php contain html and php code . 
   
