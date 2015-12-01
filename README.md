@@ -38,7 +38,7 @@ Download source code , then use composer to install required projects
 ### Example page ###
 
 the routes.php file contains : 
-
+      ```php
       $collection = new RouteCollection();
 
       $collection->attachRoute(new Route('/hello', array(
@@ -51,6 +51,7 @@ the routes.php file contains :
       $route = $router->matchCurrentRequest();
     
       ErrorHandling::error_404($route);
+      ```
       
   which means that if you request : <b>HOST/public/hello</b> , it will be routed to testController and calling the function index() .
   
@@ -61,7 +62,7 @@ the routes.php file contains :
   The controller is calling the view to render the content . 
   
   our render function contains 
-  
+        ```php
         /* display header  */
         $tpl = new Template(hello::$template);
         $tpl->display('header.ncore.php');
@@ -73,6 +74,7 @@ the routes.php file contains :
         /* display footer */
         $footer = new Template(hello::$template);
         $footer->display('footer.ncore.php');
+        ```
         
   we create our template , and render the header , body and footer .  The header.ncore.php contain html and php code . 
   
