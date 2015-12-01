@@ -58,7 +58,9 @@ ErrorHandling::error_404($route);
   
   the function index() contains : 
   
-      hello::render();
+```php
+hello::render();
+```
       
   The controller is calling the view to render the content . 
   
