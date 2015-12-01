@@ -18,7 +18,7 @@ This README would normally document whatever steps are necessary to get facetrac
 
 * PHP router
 * MVC architecture
-* Framework sturcture similar to laravel concept
+* Framework structure similar to laravel concept
 * Template Engine 
 * Doctrine ORM
 * Error handling
